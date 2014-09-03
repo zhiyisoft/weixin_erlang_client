@@ -2,7 +2,8 @@
     {description, "Weixin API Framework for Development."},
     {vsn, "0.0.1"},
     {modules, [
-      weixin_token
+      weixin_token,
+      weixin
     ]},
     {registered, [weixin_sup]},
     {applications, [
