@@ -4,3 +4,12 @@ deps
 *.beam
 *.plt
 erl_crash.dump
+
+# erlang.mk
+_rel/*
+ebin/*
+relx
+.erlang.mk.packages.*
+
+# only example provided
+sys.config
