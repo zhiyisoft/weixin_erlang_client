@@ -1,4 +1,4 @@
--module(token).
+-module(weixin_token).
 -behaviour(gen_server).
 -export([
   start_link/2,
