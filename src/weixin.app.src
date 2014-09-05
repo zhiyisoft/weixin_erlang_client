@@ -1,0 +1,19 @@
+{application, weixin, [
+    {description, "Weixin API Framework for Development."},
+    {vsn, "0.0.1"},
+    {modules, [
+      weixin_token,
+      weixin
+    ]},
+    {registered, [weixin_sup]},
+    {applications, [
+        kernel,
+        stdlib,
+        crypto,
+        inets,
+        ssl,
+        jsx
+    ]},
+    {mod, {weixin_app, []}},
+    {env, []}
+]}.
